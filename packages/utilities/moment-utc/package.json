@@ -1,0 +1,11 @@
+{
+  "name": "moment-utc",
+  "version": "1.0.0",
+  "description": "to do some trics",
+  "main": "index.js",
+  "author": "vishant",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
