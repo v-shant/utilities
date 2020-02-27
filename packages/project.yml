@@ -1,0 +1,8 @@
+packages:
+  - name: utilities
+  actions:
+    - &default_action
+      runtime: nodejs:10
+      name: moment-utc
+    - <<: *default_action
+      name: utc-current
