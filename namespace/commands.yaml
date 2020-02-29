@@ -1,4 +1,4 @@
 commands:
     moment:
-       sourcePath: utilities/moment-utc
+       sourcePath: packages/utilities/moment-utc
        description: Get moment-utc
