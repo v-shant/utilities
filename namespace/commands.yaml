@@ -1,4 +1,4 @@
 commands:
     moment:
-       sourcePath: packages/utilities/moment-utc
+       sourcePath: packages/utilities/moment-utc/src/index.js
        description: Get moment-utc
