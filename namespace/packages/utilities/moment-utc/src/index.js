@@ -22,7 +22,9 @@ async function main(params) {
   var utcMoment = moment.utc();
   var utcDate = new Date( utcMoment.format() );
   return {
-    body: utcDate
+    body: {
+      text: utcDate
+    }
   };
 }
 module.exports.main = main;
