@@ -2,5 +2,5 @@ commands:
     moment:
        sourcePath: packages/utilities/moment-utc/src/index.js
        parameters:
-	   			- name: msg       
+	   - name: msg       
        description: Get moment-utc
