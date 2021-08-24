@@ -19,7 +19,7 @@
  */
 
 async function main(params) {
-  var common = require('./utils.js')
+  var common = require('../../../utils.js')
   var moment = require( 'moment' );
   var utcMoment = moment.utc();
   var utcDate = new Date( utcMoment.format() );
