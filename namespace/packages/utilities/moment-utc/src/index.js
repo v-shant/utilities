@@ -17,13 +17,14 @@
  * is strictly forbidden unless prior written permission is obtained
  * from Nimbella Corp.
  */
+import {testUtils} from 'utils.js'
 async function main(params) {
   var moment = require( 'moment' );
   var utcMoment = moment.utc();
   var utcDate = new Date( utcMoment.format() );
   return {
     body: {
-      text: utcDate
+      text: `${utcDate} - ${testUtils()}`
     }
   };
 }
