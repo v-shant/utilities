@@ -2,7 +2,7 @@
   "name": "moment-utc",
   "version": "1.0.0",
   "description": "to do some trics",
-  "main": "src/index.js",
+  "main": "src/entry.js",
   "author": "vishant",
   "license": "MIT",
   "dependencies": {
