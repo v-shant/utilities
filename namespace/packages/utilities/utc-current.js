@@ -19,6 +19,7 @@
  */
 async function main(params) {
   return {
+    throw new Error('Required');
     body: new Date().toUTCString()
   };
 }
